@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(login-bg.jpg);
+    background-size: cover;
+    margin:;
+}
+
+.navbar {
+    opacity: 0.85;
+    border-bottom: 1px solid #fff;
+    height: 10%
+}
+
+.navbar-brand{
+    display: inline-block;
+    margin-left: -95px;
+}
+
+.nav-item{
+    font-size: 14px;  
+    transition: 0.3s;
+}
+
+.nav-item:hover{
+    font-size: 14.3px;  
+    text-decoration: underline;
+}
+
+.input-group {
+    padding: 30px;
+}
+
+.form-inline{
+    margin-right: -90px;
+}
+
+.fa-dove {
+    font-size: 38px;
+    margin-left:
+}
+
+.sedat {
+    font-size: 27px;
+}
+
+footer ul li {
+    margin-bottom: 10px !important;
+}
+
+.btn.btn-dark-transparent {
+    color: #5c0931;
+    background: 0;
+    border: 2px solid #5c0931;
+}
+
+.btn {
+    padding: 12px 25px 8px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 480px) {}
+
+:root {
+  --input-padding-x: 1.5rem;
+  --input-padding-y: .75rem;
+}
+
+.card-login {
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  top: 35px;
+}
+
+.card-login .card-title {
+  margin-bottom: 2rem;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.card-login .card-body {
+  padding: 2rem;
+  background-color: #f1f1f1;
+}
+
+.form-login {
+  width: 100%;
+}
+
+.form-login .btn {
+  font-size: 55%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  transition: all 0.2s;
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-label-group input {
+  height: auto;
+  border-radius: 2rem;
+}
+
+.form-label-group>input,
+.form-label-group>label {
+  padding: var(--input-padding-y) var(--input-padding-x);
+}
+
+.form-label-group>label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  /* Override default `<label>` margin */
+  line-height: 1.5;
+  color: #495057;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  transition: all .1s ease-in-out;
+}
+
+.btn-google {
+  color: white;
+  background-color: darkred;
+  width: 49%;
+}
+
+.btn-facebook {
+  color: white;
+  background-color: royalblue;
+  width: 49%;
+}
+
+.row>a{
+    margin-left: 42%;
+    margin-bottom: 3%;
+}
+
+.btn:hover{
+    background-color: olivedrab;
+    color: black;
+    opacity: 90%;
+    
+}
+
+.carousel-caption{
+    width: 43%;
+    left: 20px;
+    padding-right: 200px;
+    bottom: 0;
+}
+
+.button-h{
+    margin-left: 50%;
+    position: fixed;
+}
+
+.col-md > img{
+    margin-left: 25%!important;
+    transition: 0.4s;
+}
+
+.col-md > img:hover {
+    opacity: 0.96;
+    width: 72%!important;
+}
